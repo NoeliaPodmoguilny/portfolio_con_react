@@ -1,0 +1,15 @@
+[
+    {
+      "nombre": "Proyecto Final - Codo a codo",
+      "imagen": "./src/assets/projectsImg/codoacodoprojectfinal.png",
+      "descripcion": "Desarrollo de una página web responsive con HTML + CSS + BOOTSTRAP + JAVASCRIPT",
+      "url": "https://noelia-podmoguilny-proyecto-cac.netlify.app/"
+    },
+    {
+      "nombre": "Calculadora",
+      "imagen": "./src/assets/projectsImg/calculadora.png",
+      "descripcion": "Desarrollo de una calculadora web para operaciones sencillas, con HTML + CSS + ANGULAR + TYPESCRIPT",
+      "url": "https://calculadora-np.netlify.app/"
+    }
+  ]
+  

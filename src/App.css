@@ -140,3 +140,16 @@ body{
 .m-1{
     margin: 1rem 0;
 }
+.marginForm{
+    margin-top: 7rem;
+}
+.paddingForm{
+    padding: 1rem;
+}
+.spanForm{
+    display: block;
+}
+.parrForm{
+    margin-top: 15%;
+}
+

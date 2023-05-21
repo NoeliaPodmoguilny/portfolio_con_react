@@ -13,7 +13,6 @@ const Contact = () => {
 
   return (
     <div className="container">
-      <h2 className="mt-5">Contact</h2>
       <div className="row mt-4">
         <div className="col-md-6 offset-md-3">
           <form onSubmit={handleSubmit}>
@@ -22,7 +21,7 @@ const Contact = () => {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="form-control"
+                className="form-control m-1"
                 placeholder="Name"
               />
             </div>
@@ -31,7 +30,7 @@ const Contact = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="form-control"
+                className="form-control m-1"
                 placeholder="Email"
               />
             </div>
@@ -39,11 +38,11 @@ const Contact = () => {
               <textarea
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="form-control"
+                className="form-control m-1"
                 placeholder="Message"
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btnCV m-1">
               Submit
             </button>
           </form>

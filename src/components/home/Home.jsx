@@ -1,60 +1,48 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
 
 
 const Home = () => {
 
-  const whiteShadow={
-    'box-shadow': '10px 10px 50px 5px rgba(252,219,231,0.5)'
-  }
-  const center={
-    'margin-top': '20vh'
-  }
-  const colorButton={
-    'border-color': '#fff',
-    'color': '#fff'
-  }
   return (
-    <div className="container" style={center}>
-      <div className="row mt-5">
+    <div className="container">
+      <div className='d-flex justify-content-center mt-4'>
+        <h1 className='bg-transparent mainTitle'><span className='redColor'>{'<'}</span><span className='lightBlueColor'>Front-EnD</span>eveloper/<span className='redColor'>{'>'}</span></h1>
+      </div>
+      <div className="row">
         <div className="col-md-6">
           <img
-            src="./src/assets/photo/fotonoe.png"
+            src="./src/assets/photo/photo.png"
             alt="Portfolio"
-            className="img-fluid rounded-circle"
-            style={whiteShadow}
+            className="photo"
           />
         </div>
-        <div className="col-md-6 text-bg-dark bg-transparent align-self-center">
-          <h2>About Me</h2>
-          <p>
-            Front end developer, con conocimientos de Back end. Estudiante de Desarrollo de Software.
-            Stack: HTML5, CSS, JAVASCRIPT, BOOTSTRAP, TAILWIND, GIT, GITHUB, SCRUM, SQL, ANGULAR, TYPESCRIPT, REACT, JAVA
+        <div className="col-md-6 bg-transparent align-self-center">
+          <p className='text-center lightColor'>
+            <span className='fs2'>HTML5</span> <span className='fs3'>CSS</span> <span className='fs1'>JAVASCRIPT</span> <span className='fs2'>BOOTSTRAP</span> <span className='fs3'>TAILWIND</span> <span className='fs2'>GIT</span> <span className='fs3'>GITHUB</span> <span className='fs2'>SCRUM</span> <span className='fs1'>SQL</span> <span className='fs2'>ANGULAR TYPESCRIPT</span> <span className='fs1'>REACT</span><span className='fs3'>JAVA</span>
           </p>
-          <div className="mt-4 mb-4">
+          <div className="text-center mt-4 mb-4">
             <a
-              href="https://github.com/example"
+              href="https://github.com/NoePodmoguilny"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary"
+              className="btn subtitle btnRed"
             >
               GitHub
             </a>
             <a
-              href="https://github.com/example"
+              href="https://www.linkedin.com/in/npodmoguilny/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary ms-2"
+              className="btn subtitle ms-2 btnRed"
             >
               LinkedIn
             </a>
             <a
-              href="https://github.com/example"
+              href="./src/assets/cv/noelia-podmoguilny-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn ms-2"
-              style={colorButton}
+              className="btn subtitle ms-2 btnCV"
             >
               Download CV
             </a>

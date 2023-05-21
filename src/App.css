@@ -1,4 +1,142 @@
-body{
-    background-color: #242424;
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
 
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* VARIABLES */
+
+:root{
+    --fontSatisfy: 'Satisfy';
+    --fontYsabeau: 'Ysabeau';
+    --fontAsapCondensed: 'Asap Condensed';
+    --fontCharmonman: 'Charmonman';
+    --color-light: rgb(243,246,225);
+    --color-light-blue: rgb(123,177,153) ;
+    --color-red: #f13838;
+    --color-dark-red: #f11c1c;
+}
+
+/* BACKGROUND BODY */
+
+body{
+    background: rgb(1,10,28);
+    background: radial-gradient(circle, 
+                rgba(1,10,28,1) 0%, 
+                rgba(6,13,50,1) 0%, 
+                rgba(1,10,28,1) 24%, 
+                rgba(1,6,18,1) 65%);
+}
+/* STYLE GLOBAL */
+
+.mainTitle{
+    font-family: var(--fontAsapCondensed);
+    font-size: 3rem;
+    color: var(--color-light)
+}
+.title{
+    font-family: var(--fontAsapCondensed);
+    font-size: 1.5rem;
+    color: var(--color-light);
+}
+.subtitle{
+    font-family: var(--fontYsabeau);
+    font-family: 1rem;
+    color: var(--color-light);
+}
+
+/* STYLE HOME */
+
+.redColor{
+    color: var(--color-red);
+}
+.lightBlueColor{
+    color: var(--color-light-blue)
+}
+.lineHover {
+    position: relative;
+    color: var(--color-red);
+}
+.lineHover:hover, .lineHover:focus {
+    color:var(--color-red);
+}
+.lineHover::after {
+    color:var(--color-red);
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-red);
+    transition: 0.5s ease-in-out;
+}
+.lineHover:hover::after {
+    width: 100%;
+    color:var(--color-red)
+}
+.lightColor{
+    color: var(--color-light)
+}
+.fs1{
+    font-family: var(--fontSatisfy);
+    font-size: 2.3rem;
+}
+.fs2{
+    font-family: var(--fontYsabeau);
+    font-size: 1.5rem;
+}
+.fs3{
+    font-family: var(--fontAsapCondensed);
+    font-size: 1.8rem;
+}
+.fs4{
+    font-family: var(--fontCharmonman);
+    font-size: 2rem;
+}
+.btnCV{
+    background-color: var(--color-red);
+    color: var(--color-light); 
+}
+.btnCV:hover{
+    background-color: var(--color-dark-red);
+    color: var(--color-light);
+}
+.btnRed{
+    border: var(--color-red) 1px solid;
+    color: var(--color-red);
+}
+.btnRed:hover{
+    border: var(--color-dark-red) 1px solid;
+    color: var(--color-dark-red);
+}
+.photo{
+    width: auto;
+    height: 76vh;
+    filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
+    -webkit-filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
+    -moz-filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
+}
+
+/* STYLE PROJECTS */
+
+.cardProjects{
+    margin-top: 2.5rem;
+    padding: 1rem;
+    border: solid 0.1px var(--color-light);
+}
+.cardProjects:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+/* STYLE CONTACT */
+.m-1{
+    margin: 1rem 0;
 }

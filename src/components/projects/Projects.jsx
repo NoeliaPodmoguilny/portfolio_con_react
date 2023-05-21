@@ -20,26 +20,25 @@ const Projects = () => {
 
   return (
     <div className="container">
-      <h2 className="mt-5">Projects</h2>
       <div className="row mt-4">
         {projects.map((project) => (
           <div key={project.nombre} className="col-lg-4 col-md-6 mb-4">
-            <div className="card">
+            <div className="card bg-transparent cardProjects">
               <img
                 src={project.imagen}
                 className="card-img-top"
                 alt={project.nombre}
               />
               <div className="card-body">
-                <h5 className="card-title">{project.nombre}</h5>
-                <p className="card-text">{project.descripcion}</p>
+                <h5 className="card-title title">{project.nombre}</h5>
+                <p className="card-text subtitle">{project.descripcion}</p>
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btnCV"
                 >
-                  View Project
+                  View...
                 </a>
               </div>
             </div>

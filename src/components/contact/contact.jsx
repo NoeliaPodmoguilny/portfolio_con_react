@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="row marginForm">
         <div className="col-md-6 offset-md-3">
             <form onSubmit={handleSubmit}>
-              <div className="form-group">
+              <div className="form-group ">
                 <input
                   id="email"
                   type="email" 
@@ -46,7 +46,7 @@ const Contact = () => {
                 <button 
                   type="submit" 
                   disabled={state.submitting}
-                  className="form-control m-1 btnCV"
+                  className="form-control m-1 btnCV borderNone"
                 >
                   Submit
                 </button>

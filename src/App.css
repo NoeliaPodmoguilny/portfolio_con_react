@@ -118,22 +118,24 @@ body{
 }
 .photo{
     width: auto;
-    height: 76vh;
-    filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
-    -webkit-filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
-    -moz-filter: grayscale(100%) brightness(53%) saturate(0%) contrast(98%);
+    height: 65vh;
+    filter: grayscale(90%) brightness(50%) saturate(0%) contrast(95%);
+    opacity: 0.8;
+    margin-top: 13%;
 }
 
 /* STYLE PROJECTS */
 
 .cardProjects{
-    margin-top: 2.5rem;
-    padding: 1rem;
-    border: solid 0.1px var(--color-light);
+    margin-top: 5rem;
+    border:var(--color-light-blue) 1px solid;
+
 }
 .cardProjects:hover{
-    transform: scale(1.1);
-    transition-duration: 2s;
+    transition-duration: 1s;
+    box-shadow: 2px 7px 30px 5px var(--color-light-blue);
+    -webkit-box-shadow: 2px 7px 30px 5px var(--color-light-blue);
+    -moz-box-shadow: 2px 7px 30px 5px var(--color-light-blue);
 }
 
 /* STYLE CONTACT */
@@ -151,5 +153,8 @@ body{
 }
 .parrForm{
     margin-top: 15%;
+}
+.borderNone{
+    border: none !important;
 }
 

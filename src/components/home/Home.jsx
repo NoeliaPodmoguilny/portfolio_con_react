@@ -12,8 +12,8 @@ const Home = () => {
       <div className="row">
         <div className="col-md-6">
           <img
-            src="./src/assets/photo/photo.png"
-            alt="Portfolio"
+            src="./src/assets/photo/same-removebg.png"
+            alt="Foto de Noelia"
             className="photo"
           />
         </div>
@@ -39,7 +39,7 @@ const Home = () => {
               LinkedIn
             </a>
             <a
-              href="./src/assets/cv/noelia-podmoguilny-cv.pdf"
+              href="./src/assets/cv/Noelia-podmoguilny-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn subtitle ms-2 btnCV"

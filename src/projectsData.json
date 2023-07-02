@@ -2,20 +2,26 @@
     {
       "nombre": "Proyecto Final - Codo a codo",
       "imagen": "./src/assets/projectsImg/codoacodoprojectfinal.png",
-      "descripcion": "Desarrollo de una página web responsive con HTML + CSS + BOOTSTRAP + JAVASCRIPT",
+      "descripcion": "Desarrollo de página web responsive con HTML + CSS + BOOTSTRAP + JAVASCRIPT",
       "url": "https://noelia-podmoguilny-proyecto-cac.netlify.app/"
     },
     {
       "nombre": "Calculadora",
       "imagen": "./src/assets/projectsImg/calculadora.png",
-      "descripcion": "Desarrollo de una calculadora web para operaciones sencillas, con HTML + CSS + ANGULAR + TYPESCRIPT",
+      "descripcion": "Desarrollo de calculadora web con HTML + CSS + ANGULAR + TYPESCRIPT",
       "url": "https://calculadora-np.netlify.app/"
     },
     {
-      "nombre": "CalculadoraII",
+      "nombre": "Portfolio",
       "imagen": "./src/assets/projectsImg/calculadora.png",
-      "descripcion": "Desarrollo de una calculadora web para operaciones sencillas, con HTML + CSS + ANGULAR + TYPESCRIPT",
-      "url": "https://calculadora-np.netlify.app/"
+      "descripcion": "Desarrollo de portfolio web con HTML + CSS + BOOTSTRAP + JAVASCRIPT + REACT",
+      "url": ""
+    },
+    {
+      "nombre": "Dev Tools",
+      "imagen": "./src/assets/projectsImg/calculadora.png",
+      "descripcion": "Desarrollo de SPA con REACT",
+      "url": "https://dev-tools-np.netlify.app/"
     }
   ]
   

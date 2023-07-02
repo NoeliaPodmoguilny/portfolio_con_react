@@ -53,6 +53,9 @@ body{
 
 /* STYLE HOME */
 
+.paddingLeft{
+    padding-left: 40%;
+}
 .redColor{
     color: var(--color-red);
 }
@@ -139,6 +142,7 @@ body{
 }
 
 /* STYLE CONTACT */
+
 .m-1{
     margin: 1rem 0;
 }

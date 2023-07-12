@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 export const Projects = () => {
+
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
         // Carga los datos del JSON
         const fetchData = async () => {
             try {
-                const response = await fetch('./src/projectsData.json');
+                const response = await fetch('../../../projectsData.json');
                 const data = await response.json();
                 setProjects(data);
             } catch (error) {

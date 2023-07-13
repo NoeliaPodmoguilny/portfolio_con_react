@@ -8,7 +8,7 @@ export const Projects = () => {
         // Carga los datos del JSON
         const fetchData = async () => {
             try {
-                const response = await fetch('../../../projectsData.json');
+                const response = await fetch('/projectsData.json');
                 const data = await response.json();
                 setProjects(data);
             } catch (error) {

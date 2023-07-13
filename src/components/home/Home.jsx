@@ -12,7 +12,7 @@ export const Home = () => {
             <div className="row">
                 <div className="col-md-6">
                     <img
-                        src="src/components/home/files/pic.png"
+                        src="/assets/pic.png"
                         alt="Foto de Noelia"
                         className="photo"
                     />
@@ -37,7 +37,7 @@ export const Home = () => {
                         > LinkedIn
                         </a>
                         <a
-                            href="src/components/home/files/cv.pdf"
+                            href="/assets/cv.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn subtitle ms-2 btnCV"

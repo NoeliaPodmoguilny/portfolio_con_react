@@ -1,0 +1,6 @@
+export * from './CVLink'
+export * from './GitHubLink'
+export * from './Image'
+export * from './LinkedInLink'
+export * from './Skills'
+export * from './Title'

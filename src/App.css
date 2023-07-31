@@ -18,6 +18,7 @@
     --fontAsapCondensed: 'Asap Condensed';
     --fontCharmonman: 'Charmonman';
     --color-light: rgb(243,246,225);
+    --color-focus-light: rgb(150, 150, 150);
     --color-light-blue: rgb(123,177,153) ;
     --color-red: #f13838;
     --color-dark-red: #f11c1c;
@@ -62,27 +63,11 @@ body{
 .lightBlueColor{
     color: var(--color-light-blue)
 }
-.lineHover {
-    position: relative;
-    color: var(--color-red);
-}
-.lineHover:hover, .lineHover:focus {
+.items-hover:hover {
     color:var(--color-red);
 }
-.lineHover::after {
-    color:var(--color-red);
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--color-red);
-    transition: 0.5s ease-in-out;
-}
-.lineHover:hover::after {
-    width: 100%;
-    color:var(--color-red)
+.items-hover:focus{
+    color: var(--color-focus-light);
 }
 .lightColor{
     color: var(--color-light)
@@ -126,6 +111,14 @@ body{
     opacity: 0.8;
     margin-top: 13%;
 }
+/* .btn-nav{
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    color: var(--color-light);
+    border-radius: 0.5rem;
+    border-color: 2px solid var(--color-light);
+    
+} */
 
 /* STYLE PROJECTS */
 
@@ -136,9 +129,9 @@ body{
 }
 .cardProjects:hover{
     transition-duration: 1s;
-    box-shadow: 2px 7px 30px 5px var(--color-light-blue);
-    -webkit-box-shadow: 2px 7px 30px 5px var(--color-light-blue);
-    -moz-box-shadow: 2px 7px 30px 5px var(--color-light-blue);
+    box-shadow: 1px 2px 20px 2px var(--color-light-blue);
+    -webkit-box-shadow: 1px 2px 20px 2px var(--color-light-blue);
+    -moz-box-shadow: 1px 2px 20px 2px var(--color-light-blue);
 }
 
 /* STYLE CONTACT */
@@ -149,8 +142,11 @@ body{
 .marginForm{
     margin-top: 7rem;
 }
-.paddingForm{
+.input-form{
     padding: 1rem;
+}
+.input-form:focus{
+    box-shadow: none !important;
 }
 .spanForm{
     display: block;

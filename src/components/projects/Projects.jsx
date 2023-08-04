@@ -12,7 +12,7 @@ export const Projects = () => {
                 const data = await response.json();
                 setProjects(data);
             } catch (error) {
-                // otro component para manejar el erro
+                // otro component para manejar el error
                 console.error('Error al cargar los datos de los proyectos:', error);
             }
         };

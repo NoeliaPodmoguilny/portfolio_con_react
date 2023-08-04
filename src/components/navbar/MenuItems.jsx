@@ -7,10 +7,10 @@ export const MenuItems = ({ handleMenuToggle}) => {
         <div> 
             <ul className="navbar-nav ml-auto">
                 {
-                    dataLinks.map( ({id, to, name}) => (
+                    dataLinks.map( ({index, to, name}) => (
                         <li className="nav-item"> 
                             <Link 
-                                key={id}
+                                key={index}
                                 to={to}
                                 className="nav-link items-hover subtitle" 
                                 onClick={handleMenuToggle}

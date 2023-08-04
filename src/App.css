@@ -111,6 +111,9 @@ body{
     opacity: 0.8;
     margin-top: 13%;
 }
+.skill-hover:hover{
+    color: var(--color-red);
+}
 
 /* STYLE PROJECTS */
 

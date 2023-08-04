@@ -7,7 +7,7 @@ export const Home = () => {
     return (
         <div className="container">
             <Title/>
-            <div className="row">
+            <div className=" row">
                 <Image/>
                 <div className="col-md-6 bg-transparent align-self-center">
                     <Skills/>

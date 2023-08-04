@@ -1,8 +1,8 @@
 [
     {
-        "nombre": "Proyecto Final - Codo a codo",
-        "descripcion": "Desarrollo de página web responsive con HTML + CSS + Bootstrap + JavaScript",
-        "url": "https://noelia-podmoguilny-proyecto-cac.netlify.app/"
+        "nombre": "Tasks List",
+        "descripcion": "Desarrollo de app web para agregar, tachar y/o eliminar una tarea, con React.js",
+        "url": "https://t-a-s-k-s-l-i-s-t.netlify.app/"
     },
     {
         "nombre": "Calculadora",
@@ -16,12 +16,12 @@
     },
     {
         "nombre": "Dev Tools",
-        "descripcion": "Desarrollo de SPA con React.js",
+        "descripcion": "Desarrollo de SPA con HTML + CSS + Bootstrap + JavaScript + React.js",
         "url": "https://dev-tools-np.netlify.app/"
     },
     {
-        "nombre": "Tasks List",
-        "descripcion": "Desarrollo de app web para agregar, tachar y/o eliminar una tarea, con React.js",
-        "url": "https://t-a-s-k-s-l-i-s-t.netlify.app/"
+        "nombre": "Proyecto Final - Codo a codo",
+        "descripcion": "Desarrollo de página web responsive con HTML + CSS + Bootstrap + JavaScript",
+        "url": "https://noelia-podmoguilny-proyecto-cac.netlify.app/"
     }
 ]

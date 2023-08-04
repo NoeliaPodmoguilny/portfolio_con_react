@@ -18,5 +18,10 @@
         "nombre": "Dev Tools",
         "descripcion": "Desarrollo de SPA con React.js",
         "url": "https://dev-tools-np.netlify.app/"
+    },
+    {
+        "nombre": "Tasks List",
+        "descripcion": "Desarrollo de app web para agregar, tachar y/o eliminar una tarea, con React.js",
+        "url": "https://t-a-s-k-s-l-i-s-t.netlify.app/"
     }
 ]

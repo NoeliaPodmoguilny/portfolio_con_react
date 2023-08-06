@@ -111,7 +111,7 @@ body{
     opacity: 0.8;
     margin-top: 13%;
 }
-.skill-hover:hover{
+.skill:hover{
     color: var(--color-red);
 }
 

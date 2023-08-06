@@ -2,15 +2,17 @@ import { dataSkills } from "./dataSkills";
 
 export const Skills = () => {
 
+    const style = 'd-inline-flex m-1 skill animate__animated animate__pulse animate__infinite infinite'
+
     return (
         <div className='text-center lightColor'>
             {
                 dataSkills.map((skill, index) => (
-                    <span 
+                    <div 
                         key={index} 
-                        className={`skill-hover ${skill.font}`}
+                        className={` ${style} ${skill.style}`}
                     > {skill.text}
-                    </span>
+                    </div>
                 ))
             }
         </div>

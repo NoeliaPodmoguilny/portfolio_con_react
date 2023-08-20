@@ -6,15 +6,15 @@ export const Home = () => {
 
     return (
         <div className="container">
-            <Title/>
+            <Title />
             <div className=" row">
-                <Image/>
+                <Image />
                 <div className="col-md-6 bg-transparent align-self-center">
-                    <Skills/>
-                    <div className="text-center mt-4 mb-4">
-                        <GitHubLink/>
-                        <LinkedInLink/>
-                        <CVLink/>
+                    <Skills />
+                    <div className="text-center mt-4 mb-4 animate__animated animate__fadeIn">
+                        <GitHubLink />
+                        <LinkedInLink />
+                        <CVLink />
                     </div>
                 </div>
             </div>

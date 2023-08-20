@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 import { dataLinks } from "./dataLinks.js";
 
 
-export const MenuItems = ({ handleMenuToggle}) => {
+export const MenuItems = ({ handleMenuToggle }) => {
     return (
-        <div> 
-            <ul className="navbar-nav ml-auto">
+        <div className="d-flex">
+            <ul className="navbar-nav ml-auto justify-content-center">
                 {
-                    dataLinks.map( ({index, to, name}) => (
-                        <li className="nav-item"> 
-                            <Link 
-                                key={index}
+                    dataLinks.map(({ to, name }) => (
+                        <li key={name} className="nav-item text-center">
+                            <Link
                                 to={to}
-                                className="nav-link items-hover subtitle" 
+                                className="nav-link items-hover subtitle"
                                 onClick={handleMenuToggle}
-                            > {name}
+                            >
+                                {name}
                             </Link>
                         </li>
                     ))

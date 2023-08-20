@@ -11,7 +11,7 @@ export const MenuItems = ({ handleMenuToggle }) => {
                         <li key={name} className="nav-item text-center">
                             <Link
                                 to={to}
-                                className="nav-link items-hover subtitle"
+                                className="nav-link items-hover subtitle animate__animated animate__fadeInDown"
                                 onClick={handleMenuToggle}
                             >
                                 {name}

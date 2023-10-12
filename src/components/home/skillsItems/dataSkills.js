@@ -2,7 +2,7 @@
 
 export const dataSkills = [
     {
-        text: 'HTML5',
+        text: 'HTML',
         style: 'animate__slow 2s fs2'
     },
     {
@@ -38,7 +38,7 @@ export const dataSkills = [
         style: 'fs1'
     },
     {
-        text: 'ANGULAR',
+        text: 'MUI',
         style: 'animate__slow 2s fs2'
     },
     {
@@ -46,11 +46,16 @@ export const dataSkills = [
         style: 'animate__slow 2s fs2'
     },
     {
-        text: 'REACT',
+        text: 'REACT.JS',
         style: 'fs1'
     },
     {
-        text: 'JAVA',
+        text: 'MYSQL',
         style: 'animate__slower 3s fs3'
     },
+    {
+        text: 'JAVA',
+        style: 'fs1'
+    }
+
 ];
